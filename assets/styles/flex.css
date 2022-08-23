@@ -1,0 +1,42 @@
+.body-flex {
+    display: flex;
+    flex-direction: column;
+}
+.grid-flex {
+    display: flex;
+    justify-content: space-around;
+}
+.bg-image-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.content-wrap-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.text-2-columns {
+    columns: 2;
+    column-gap: 2em;
+}
+.vertical-flex {
+    display: flex;
+    flex-direction: column;
+}
+.horizontal-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+}
+.horizontal-flex>li {
+    width:31%;
+}
+.grid-flex>.box {
+    width: 50%;
+    text-align: center;
+}
